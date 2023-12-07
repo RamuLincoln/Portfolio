@@ -1,0 +1,60 @@
+#Works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.workstitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worktitle {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: yellow;
+}
+.workpara {
+    font-size: small;
+}
+.workscontent {
+    display: flex;
+    background: rgb(50, 50, 50);
+    margin: 5px;
+    padding: 5px;
+}
+.worktech {
+    font-size: 1rem;
+    font-weight: bold;
+    color: yellowgreen;
+    margin: 5px;
+    padding: 5px;
+
+}
+.worksImgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 40rem;
+}
+.worksImg{
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    margin: 0.5rem;
+}
+.worksdesc {
+    margin: 5px;
+    padding: 5px;
+}
+.btn {
+    margin: 10px;
+}
