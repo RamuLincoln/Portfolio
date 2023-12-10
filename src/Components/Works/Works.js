@@ -1,6 +1,6 @@
 import React from 'react';
 import './Works.css';
-import qrcode from './QRcode.png';
+import rps from './rps.png';
 import phone from './phone.png';
 import pf from './pf1.png';
 
@@ -10,15 +10,15 @@ const Works = () => {
         <h2 className='workstitle'>My Portfolio</h2>
         <div className='worksImgs'>
             <div className='workscontent'>
-                <img src={qrcode} alt='QRcode' className='worksImg' />
+                <img src={rps} alt='QRcode' className='worksImg' />
                 <div className='worksdesc'>
-                    <div className='worktitle'>Project : QRcode</div>
-                    <div className='workpara'>This is a practice project of QRcode scanner page from frontend mentor</div>
+                    <div className='worktitle'>Project : Rock paper scissors</div>
+                    <div className='workpara'>This is a practice project of rock paper scissors game from frontend mentor</div>
                     <div className='worktech'>Technologies</div>
-                    <div className='workpara'>HTML5, CSS</div>
+                    <div className='workpara'>React JS, CSS</div>
                     <div className='workllinks'>
-                        <button className='btn'><a href='https://ramu-qr-code.netlify.app' rel="noreferrer" target="_blank">Website</a></button>
-                        <button className='btn'><a href='https://github.com/RamuLincoln/QRcode' rel="noreferrer" target="_blank">Github</a></button>
+                        <button className='btn'><a href='https://ramu-rockpaperscissor-game.netlify.app/' rel="noreferrer" target="_blank">Website</a></button>
+                        <button className='btn'><a href='https://github.com/RamuLincoln/game/tree/main/game' rel="noreferrer" target="_blank">Github</a></button>
                     </div>
                 </div>
             </div>
