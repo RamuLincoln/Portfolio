@@ -2,6 +2,7 @@ import React from 'react';
 import './Works.css';
 import rps from './rps.png';
 import phone from './phone.png';
+import slider from './slider.png';
 import pf from './pf1.png';
 
 const Works = () => {
@@ -19,6 +20,19 @@ const Works = () => {
                     <div className='workllinks'>
                         <button className='btn'><a href='https://ramu-rockpaperscissor-game.netlify.app/' rel="noreferrer" target="_blank">Website</a></button>
                         <button className='btn'><a href='https://github.com/RamuLincoln/game/tree/main/game' rel="noreferrer" target="_blank">Github</a></button>
+                    </div>
+                </div>
+            </div>
+            <div className='workscontent'>
+                <img src={slider} alt='phone' className='worksImg' />
+                <div className='worksdesc'>
+                    <div className='worktitle'>Project : Image slider</div>
+                    <div className='workpara'>This is a practice project of an image slider with changing background</div>
+                    <div className='worktech'>Technologies</div>
+                    <div className='workpara'>React JS</div>
+                    <div className='workllinks'>
+                        <button className='btn'><a href='https://ramu-image-slider.netlify.app/' rel="noreferrer" target="_blank">Website</a></button>
+                        <button className='btn'><a href='https://github.com/RamuLincoln/project' rel="noreferrer" target="_blank">Github</a></button>
                     </div>
                 </div>
             </div>
