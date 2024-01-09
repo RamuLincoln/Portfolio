@@ -58,3 +58,10 @@
 .btn {
     margin: 10px;
 }
+.lmbtn {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}

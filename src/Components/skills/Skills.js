@@ -3,8 +3,10 @@ import './Skills.css';
 import data from "./data";
 
 const Skills = () => {
+//useState
   const [selected, setSelected] = useState(null);
   
+//show the skills depends on the item clicked 
   function handleClick(Id){
     setSelected(Id === selected ? null : Id)
   }
