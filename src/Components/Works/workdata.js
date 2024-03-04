@@ -2,7 +2,7 @@
 const data = [ 
     {
         "Id" : 1,
-        "image" : require('./netflix.png'),
+        "image" : require('./Neflixclone.png'),
         "worktitle" : "Project : Netflix clone",
         "workdesc" : "This is a netflix clone website where you can view movies by trending, category",
         "worktech" : "Technologies",
@@ -13,6 +13,17 @@ const data = [
     }, 
     {
         "Id" : 2,
+        "image" : require('./fcb.png'),
+        "worktitle" : "Project : Fit Club",
+        "workdesc" : "This is a landing page project for fitclub with animation",
+        "worktech" : "Technologies",
+        "workpara" : "React JS, CSS",
+        "web" : "https://ramu-fit-club.netlify.app",
+        "github" : "github.com/RamuLincoln/fitclub"
+
+    },
+    {
+        "Id" : 3,
         "image" : require('./rps.png'),
         "worktitle" : "Project : Rock paper scissors",
         "workdesc" : "This is a practice project of rock paper scissors game from frontend mentor",
@@ -23,7 +34,7 @@ const data = [
 
     }, 
     {
-        "Id" : 3,
+        "Id" : 4,
         "image" : require('./slider.png'),
         "worktitle" : "Project : Image slider",
         "workdesc" : "This is a practice project of an image slider with changing background",
@@ -34,7 +45,7 @@ const data = [
 
     },
     {
-        "Id" : 4,
+        "Id" : 5,
         "image" : require('./pf1.png'),
         "worktitle" : "Project : Portfolio",
         "workdesc" : "I have created my own Portfolio to showcase my skills",

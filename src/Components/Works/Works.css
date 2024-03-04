@@ -46,7 +46,6 @@
     max-width: 40rem;
 }
 .worksImg{
-    object-fit: cover;
     height: 15rem;
     width: 15rem;
     margin: 0.5rem;
