@@ -49,6 +49,10 @@
     height: 15rem;
     width: 15rem;
     margin: 0.5rem;
+    border-radius: 10px;
+}
+.worksImg:hover {
+    scale: 1.2;
 }
 .worksdesc {
     margin: 5px;

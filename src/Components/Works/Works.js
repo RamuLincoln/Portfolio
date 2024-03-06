@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Works.css';
 import data from './workdata';
+import {motion} from 'framer-motion';
 
 const Works = () => {
 //useState
@@ -16,6 +17,15 @@ const Works = () => {
     useEffect(()=>{
         if (data.length === slice.length) setDisablebtn(true);
     },[slice.length]);
+
+    const variants = {
+        active: {
+            scale: 1.2
+        },
+        inactive: {
+            scale : 0.8
+        }
+      }
     
   return (
     <div>
@@ -25,7 +35,7 @@ const Works = () => {
             {slice.map((item,index)=>{
                 return(
                     <div className='workscontent'>
-                    <img src={item.image} alt='QRcode' className='worksImg' />
+                    <a href={item.web} rel="noreferrer" target="_blank"><motion.img variants={variants} animate="inactive" src={item.image} alt='QRcode' className='worksImg' /></a>
                         <div className='worksdesc'>
                             <div className='worktitle'>{item.worktitle}</div>
                             <div className='workpara'>{item.workdesc}</div>
