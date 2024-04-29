@@ -2,13 +2,13 @@
 const data = [ 
     {
         "Id" : 1,
-        "image" : require('./Neflixclone.png'),
-        "worktitle" : "Project : Netflix clone",
-        "workdesc" : "This is a netflix clone website where you can view movies by trending, category",
+        "image" : require('./food.png'),
+        "worktitle" : "Project : Food Delivery",
+        "workdesc" : "This is a Food Delivery website where you can view food by menu, category",
         "worktech" : "Technologies",
         "workpara" : "React JS, Bootstrap",
-        "web" : "https://ramu-netflix-website.netlify.app/",
-        "github" : "https://github.com/RamuLincoln/Netflix"
+        "web" : "https://ramu-food-delivery.netlify.app/#",
+        "github" : "https://github.com/RamuLincoln/fooddelivery"
 
     }, 
     {
@@ -46,6 +46,17 @@ const data = [
     },
     {
         "Id" : 5,
+        "image" : require('./Neflixclone.png'),
+        "worktitle" : "Project : Netflix Clone",
+        "workdesc" : "This is a netflix clone website where you can view movies by trending, category",
+        "worktech" : "Technologies",
+        "workpara" : "React JS, Bootstrap",
+        "web" : "https://ramu-netflix-website.netlify.app/",
+        "github" : "https://github.com/RamuLincoln/Netflix"
+
+    }, 
+    {
+        "Id" : 6,
         "image" : require('./pf1.png'),
         "worktitle" : "Project : Portfolio",
         "workdesc" : "I have created my own Portfolio to showcase my skills",
