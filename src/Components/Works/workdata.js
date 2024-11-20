@@ -35,13 +35,13 @@ const data = [
     }, 
     {
         "Id" : 4,
-        "image" : require('./slider.png'),
-        "worktitle" : "Project : Image slider",
-        "workdesc" : "This is a practice project of an image slider with changing background",
+        "image" : require('./quiz.png'),
+        "worktitle" : "Project : Quiz",
+        "workdesc" : "This is a practice project of quiz using API",
         "worktech" : "Technologies",
         "workpara" : "React JS",
-        "web" : "https://ramu-image-slider.netlify.app/",
-        "github" : "https://github.com/RamuLincoln/project"
+        "web" : "ramu-quiz.netlify.app",
+        "github" : "https://github.com/RamuLincoln/quiz-typescripts"
 
     },
     {
