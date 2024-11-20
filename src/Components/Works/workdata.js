@@ -36,7 +36,7 @@ const data = [
     {
         "Id" : 4,
         "image" : require('./quiz.png'),
-        "worktitle" : "Project : Quiz",
+        "worktitle" : "Project : Quiz Game",
         "workdesc" : "This is a practice project of quiz using API",
         "worktech" : "Technologies",
         "workpara" : "React JS",
