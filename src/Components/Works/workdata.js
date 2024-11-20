@@ -37,7 +37,7 @@ const data = [
         "Id" : 4,
         "image" : require('./quiz.png'),
         "worktitle" : "Project : Quiz Game",
-        "workdesc" : "This is a practice project of quiz using API",
+        "workdesc" : "This is a practice project of quiz using API, Typescript, React JS",
         "worktech" : "Technologies",
         "workpara" : "React JS",
         "web" : "ramu-quiz.netlify.app",
