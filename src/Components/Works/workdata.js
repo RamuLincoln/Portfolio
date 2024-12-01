@@ -2,28 +2,17 @@
 const data = [ 
     {
         "Id" : 1,
-        "image" : require('./food.png'),
-        "worktitle" : "Project : Food Delivery",
-        "workdesc" : "This is a Food Delivery website where you can view food by menu, category",
+        "image" : require('./quiz.png'),
+        "worktitle" : "Project : Quiz Game",
+        "workdesc" : "This is a practice project of quiz using API, Typescript, React JS",
         "worktech" : "Technologies",
-        "workpara" : "React JS, Bootstrap",
-        "web" : "https://ramu-food-delivery.netlify.app/#",
-        "github" : "https://github.com/RamuLincoln/fooddelivery"
+        "workpara" : "React JS",
+        "web" : "https://ramu-quiz.netlify.app",
+        "github" : "https://github.com/RamuLincoln/quiz-typescripts"
 
     }, 
     {
         "Id" : 2,
-        "image" : require('./fcb.png'),
-        "worktitle" : "Project : Fit Club",
-        "workdesc" : "This is a landing page project for fitclub with animation",
-        "worktech" : "Technologies",
-        "workpara" : "React JS, CSS",
-        "web" : "https://ramu-fit-club.netlify.app",
-        "github" : "github.com/RamuLincoln/fitclub"
-
-    },
-    {
-        "Id" : 3,
         "image" : require('./rps.png'),
         "worktitle" : "Project : Rock paper scissors",
         "workdesc" : "This is a practice project of rock paper scissors game from frontend mentor",
@@ -34,14 +23,25 @@ const data = [
 
     }, 
     {
-        "Id" : 4,
-        "image" : require('./quiz.png'),
-        "worktitle" : "Project : Quiz Game",
-        "workdesc" : "This is a practice project of quiz using API, Typescript, React JS",
+        "Id" : 3,
+        "image" : require('./fcb.png'),
+        "worktitle" : "Project : Fit Club",
+        "workdesc" : "This is a landing page project for fitclub with animation",
         "worktech" : "Technologies",
-        "workpara" : "React JS",
-        "web" : "https://ramu-quiz.netlify.app",
-        "github" : "https://github.com/RamuLincoln/quiz-typescripts"
+        "workpara" : "React JS, CSS",
+        "web" : "https://ramu-fit-club.netlify.app",
+        "github" : "github.com/RamuLincoln/fitclub"
+
+    },
+    {
+        "Id" : 4,
+        "image" : require('./food.png'),
+        "worktitle" : "Project : Food Delivery",
+        "workdesc" : "This is a Food Delivery website where you can view food by menu, category",
+        "worktech" : "Technologies",
+        "workpara" : "React JS, Bootstrap",
+        "web" : "https://ramu-food-delivery.netlify.app/#",
+        "github" : "https://github.com/RamuLincoln/fooddelivery"
 
     },
     {
