@@ -40,7 +40,7 @@ const data = [
         "workdesc" : "This is a practice project of quiz using API, Typescript, React JS",
         "worktech" : "Technologies",
         "workpara" : "React JS",
-        "web" : "ramu-quiz.netlify.app",
+        "web" : "https://ramu-quiz.netlify.app",
         "github" : "https://github.com/RamuLincoln/quiz-typescripts"
 
     },
