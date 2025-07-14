@@ -3,7 +3,7 @@ const data = [
     {
         "Id" : 1,
         "image" : require('./Fluttertodo.png'),
-        "worktitle" : "Project : TOdo List",
+        "worktitle" : "Project : Todo List",
         "workdesc" : "This is a practice project of todo list using Flutter",
         "worktech" : "Technologies",
         "workpara" : "Flutter",
