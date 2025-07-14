@@ -2,6 +2,17 @@
 const data = [ 
     {
         "Id" : 1,
+        "image" : require('./Fluttertodo.png'),
+        "worktitle" : "Project : TOdo List",
+        "workdesc" : "This is a practice project of todo list using Flutter",
+        "worktech" : "Technologies",
+        "workpara" : "Flutter",
+        "web" : "https://ramu-flutter-todo.netlify.app/",
+        "github" : "https://github.com/RamuLincoln/flutterTodo"
+
+    }, 
+    {
+        "Id" : 2,
         "image" : require('./quiz.png'),
         "worktitle" : "Project : Quiz Game",
         "workdesc" : "This is a practice project of quiz using API, Typescript, React JS",
@@ -12,7 +23,7 @@ const data = [
 
     }, 
     {
-        "Id" : 2,
+        "Id" : 3,
         "image" : require('./rps.png'),
         "worktitle" : "Project : Rock paper scissors",
         "workdesc" : "This is a practice project of rock paper scissors game from frontend mentor",
@@ -23,7 +34,7 @@ const data = [
 
     }, 
     {
-        "Id" : 3,
+        "Id" : 4,
         "image" : require('./fcb.png'),
         "worktitle" : "Project : Fit Club",
         "workdesc" : "This is a landing page project for fitclub with animation",
@@ -34,7 +45,7 @@ const data = [
 
     },
     {
-        "Id" : 4,
+        "Id" : 5,
         "image" : require('./food.png'),
         "worktitle" : "Project : Food Delivery",
         "workdesc" : "This is a Food Delivery website where you can view food by menu, category",
@@ -45,7 +56,7 @@ const data = [
 
     },
     {
-        "Id" : 5,
+        "Id" : 6,
         "image" : require('./Neflixclone.png'),
         "worktitle" : "Project : Netflix Clone",
         "workdesc" : "This is a netflix clone website where you can view movies by trending, category",
@@ -56,7 +67,7 @@ const data = [
 
     }, 
     {
-        "Id" : 6,
+        "Id" : 7,
         "image" : require('./pf1.png'),
         "worktitle" : "Project : Portfolio",
         "workdesc" : "I have created my own Portfolio to showcase my skills",
