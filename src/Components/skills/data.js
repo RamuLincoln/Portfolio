@@ -10,13 +10,13 @@ const data = [
     {
         Id : "2",
         Title : "Frontend Developer",
-        Desc : "I know HTML5, CSS, Bootstrap, JavaScript, React Js, Vue Js",
+        Desc : "I know HTML5, CSS3, Bootstrap, JavaScript, React, Redux",
         Image : require("./web.avif")
     },
     {
         Id : "3",
         Title : "Backend Developer",
-        Desc : "I know Python, C#, .NET, MySQL, MongoDB",
+        Desc : "I know Python, MySQL, Rest API",
         Image : require("./mob.avif")
     }
 ]
