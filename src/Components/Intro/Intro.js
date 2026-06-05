@@ -11,9 +11,8 @@ const Intro = () => {
         <motion.div style={{ x:25 }} animate={{ x: 10, y:-10 }} className='introContent'>
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Ramu Valliappan</span><br />Full Stack Developer</span>
-            <p className='introPara'>Full Stack Developer with experience building web applications, IoT data platforms, and real-time
-               monitoring dashboards. Skilled in React, Python, SQL, PostgreSQL, and API development. Experienced in transforming sensor
-               and operational data into actionable insights through modern web technologies. <br />  React JavaScript, Python, MySQL</p>
+            <p className='introPara'>Full Stack Developer with experience building web applications, IoT data platforms, <br />and real-time
+               monitoring dashboards. Experienced in transforming sensor and <br /> operational data into actionable insights through modern web technologies.</p>
             <Link><button className='btn'><img src={lock} alt='btnImg' className='btnImg'/>Hire me</button></Link>
         </motion.div>
         <motion.img initial={true} animate={{ x: 100, y: -50 }} src={bg} alt='' className='bg'></motion.img>
